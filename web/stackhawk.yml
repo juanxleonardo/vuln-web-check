@@ -1,0 +1,4 @@
+app:
+  applicationId: c521371f-ce2a-47af-a086-dcf15226e0c7
+  env: Development
+  host: https://testphp.vulnweb.com
