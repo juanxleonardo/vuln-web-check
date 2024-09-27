@@ -6,4 +6,4 @@ hawk:
   spider:
     base: false
     custom:
-      command:  "newman run ${POSTMAN_FILENAME}"
+      command:  "newman run ${POSTMAN_FILENAME} -e ${POSTMAN_ENV}"
