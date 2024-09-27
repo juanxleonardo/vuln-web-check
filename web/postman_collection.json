@@ -12,12 +12,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://testphp.vulnweb.com/categories.php",
+					"raw": "http://{{base_url}}}/categories.php",
 					"protocol": "http",
 					"host": [
-						"testphp",
-						"vulnweb",
-						"com"
+						"{{base_url}}}"
 					],
 					"path": [
 						"categories.php"
@@ -32,12 +30,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://testphp.vulnweb.com/login.php",
+					"raw": "http://{{base_url}}/login.php",
 					"protocol": "http",
 					"host": [
-						"testphp",
-						"vulnweb",
-						"com"
+						"{{base_url}}"
 					],
 					"path": [
 						"login.php"
