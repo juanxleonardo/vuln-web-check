@@ -10,7 +10,19 @@
 			"name": "categories",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://testphp.vulnweb.com/categories.php",
+					"protocol": "http",
+					"host": [
+						"testphp",
+						"vulnweb",
+						"com"
+					],
+					"path": [
+						"categories.php"
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +30,19 @@
 			"name": "login",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://testphp.vulnweb.com/login.php",
+					"protocol": "http",
+					"host": [
+						"testphp",
+						"vulnweb",
+						"com"
+					],
+					"path": [
+						"login.php"
+					]
+				}
 			},
 			"response": []
 		}
