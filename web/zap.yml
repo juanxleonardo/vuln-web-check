@@ -7,7 +7,7 @@ env:
 jobs:
   - type: postman
     parameters:
-      collectionFile: "postman_collection.json"
+      collectionFile: "[postman_collection]"
       variables: base_url=testphp.vulnweb.com
 
   - type: passiveScan-config           # Passive scan configuration
